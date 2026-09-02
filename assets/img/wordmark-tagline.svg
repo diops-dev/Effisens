@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 110" role="img" aria-label="effisens — Accompagnement Ayurvédique">
+  <text x="0" y="48" font-family="&#39;Nunito Sans&#39;, system-ui, sans-serif" font-weight="300" font-size="48" letter-spacing="5" fill="#2a1f17">effisens</text>
+  <circle cx="298" cy="16" r="4.5" fill="#b9613c"></circle>
+  <line x1="2" y1="64" x2="48" y2="64" stroke="#b9613c" stroke-width="1.2"></line>
+  <text x="0" y="92" font-family="&#39;Cormorant Garamond&#39;, serif" font-style="italic" font-size="22" fill="#6e5a47">Accompagnement Ayurvédique</text>
+</svg>
