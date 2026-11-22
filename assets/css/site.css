@@ -625,3 +625,12 @@ section[id] { scroll-margin-top: 88px; }
   font-family: var(--font-body); font-size: 13px; font-weight: 600;
   color: var(--accent); letter-spacing: 0.18em; text-transform: uppercase;
 }
+
+/* ---------------- Correctif défilement ----------------
+   Certains hébergements (aperçu temporaire Hostinger) injectent
+   body { overflow-y: hidden } et html, body { height: 100% } : la page ne défile plus. */
+html, body { height: auto !important; min-height: 100%; }
+html, body { overflow-y: auto !important; }
+
+/* Crédit shōrAI */
+.footer-bottom a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
