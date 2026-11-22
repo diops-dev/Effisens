@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Contact &amp; Réservation | Effisens – Paris 14e &amp; Les Pavillons-sous-Bois</title>
-  <meta name="description" content="Prenez rendez-vous avec Sandra Germade pour un massage ayurvédique, une cure bien-être ou une formation. Effisens vous reçoit à Paris 14e et aux Pavillons-sous-Bois (93).">
+  <meta name="description" content="Prenez rendez-vous avec Sandra Germade pour un massage ayurvédique, un séjour bien-être ou une formation. Effisens vous reçoit à Paris 14e et aux Pavillons-sous-Bois (93).">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="canonical" href="https://www.effisens.fr/contact">
   <link rel="icon" type="image/png" href="assets/img/schirchampi-icon.png">
@@ -63,8 +63,8 @@
       <nav class="nav" aria-label="Navigation principale">
         <a href="index.html">Accueil</a>
         <a href="les-soins.html">Les soins</a>
-        <a href="les-cures.html">Les cures</a>
-        <a href="bretagne-secrete.html">Bretagne secrète</a>
+        <a href="les-cures.html">Séjours</a>
+        <a href="bretagne-secrete.html">Traversée intérieure</a>
         <a href="formation.html">Formation</a>
         <a href="a-propos.html">À propos</a>
         <a href="contact.html" class="active">Contact</a>
@@ -84,7 +84,7 @@
         <p class="hero__eyebrow reveal">contact</p>
         <h1 class="hero__title reveal" style="font-size:clamp(40px,5.6vw,84px)">Contactez Effisens<br><em>&amp; réservez votre soin.</em></h1>
         <p class="hero__lede reveal">
-          Une question sur un soin, une cure ou une formation ? Envie de réserver une séance ?
+          Une question sur un soin, un séjour ou une formation ? Envie de réserver une séance ?
           Sandra Germade est à votre écoute.
         </p>
       </div>
@@ -130,7 +130,7 @@
           <h3>Horaires de consultation</h3>
           <p>Lundi – Vendredi : 9h00 – 19h00<br>
              Samedi : 9h00 – 17h00<br>
-             Dimanche : sur demande (cures uniquement)</p>
+             Dimanche : sur demande (séjours uniquement)</p>
           <p style="margin-top:8px"><em>Urgences ou exceptions : nous contacter directement.</em></p>
         </div>
 
@@ -194,7 +194,7 @@
               <label for="topic">Sujet</label>
               <select id="topic" name="Sujet" required onchange="effisensUpdateForm()">
                 <option value="Soin à la séance">Soin à la séance</option>
-                <option value="Cure ou week-end ayurvédique">Cure ou week-end ayurvédique</option>
+                <option value="Séjour ou week-end ayurvédique">Séjour ou week-end ayurvédique</option>
                 <option value="Formation">Formation</option>
                 <option value="Bon cadeau">Bon cadeau</option>
                 <option value="Autre">Autre</option>
@@ -328,7 +328,7 @@
         <a href="index.html" class="wordmark-link" aria-label="effisens, accueil">
           <span class="wordmark" style="color:#fff">effisens</span><span class="wordmark-dot"></span>
         </a>
-        <p class="tagline">Massages ayurvédiques, soins énergétiques et cures résidentielles, par Sandra Germade.</p>
+        <p class="tagline">Massages ayurvédiques, soins énergétiques et séjours, par Sandra Germade.</p>
         <p class="mantra">apaisement · libération · reconnexion</p>
       </div>
       <div>
@@ -336,8 +336,8 @@
         <ul>
           <li><a href="index.html">Accueil</a></li>
           <li><a href="les-soins.html">Les soins</a></li>
-          <li><a href="les-cures.html">Les cures</a></li>
-          <li><a href="bretagne-secrete.html">Bretagne secrète</a></li>
+          <li><a href="les-cures.html">Séjours</a></li>
+          <li><a href="bretagne-secrete.html">Traversée intérieure</a></li>
           <li><a href="formation.html">Formation</a></li>
           <li><a href="a-propos.html">À propos</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -375,7 +375,7 @@
       var topic = document.getElementById('topic').value;
       var pairs = [
         ['field-cabinet',   'cabinet',   topic === 'Soin à la séance' || topic === 'Bon cadeau'],
-        ['field-formule',   'formule',   topic === 'Cure ou week-end ayurvédique'],
+        ['field-formule',   'formule',   topic === 'Séjour ou week-end ayurvédique'],
         ['field-formation', 'formation', topic === 'Formation'],
       ];
       pairs.forEach(function (p) {
