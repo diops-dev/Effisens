@@ -6,6 +6,12 @@
 (function () {
   'use strict';
 
+  // ---------- Défilement : certains hébergements d'aperçu bloquent le scroll (overflow hidden injecté) ----------
+  [document.documentElement, document.body].forEach((el) => {
+    el.style.setProperty('overflow-y', 'auto', 'important');
+    el.style.setProperty('height', 'auto', 'important');
+  });
+
   // ---------- Header scroll state ----------
   const header = document.querySelector('.header');
   if (header) {
